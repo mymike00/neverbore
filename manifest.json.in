@@ -1,0 +1,15 @@
+{
+    "name": "neverbore.mterry",
+    "description": "Nonogram puzzle game",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Neverbore Picross",
+    "hooks": {
+        "neverbore": {
+            "apparmor": "neverbore.apparmor",
+            "desktop": "neverbore.desktop"
+        }
+    },
+    "version": "3",
+    "maintainer": "Michael Terry <mterry@ubuntu.com>",
+    "framework": "ubuntu-sdk-15.04"
+}

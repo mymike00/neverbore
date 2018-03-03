@@ -1,0 +1,9 @@
+[Desktop Entry]
+_Name=Neverbore Picross
+Comment=Nonogram puzzle game
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Show-Header=true

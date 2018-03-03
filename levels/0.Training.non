@@ -1,0 +1,19 @@
+catalogue "generate.go with seed 0"
+title "Training"
+by "Michael Terry"
+copyright "© 2015 Michael Terry"
+license CC-BY-SA-4.0
+height 5
+width 1
+
+rows
+
+
+1
+
+1
+
+columns
+1,1
+
+goal "00101"

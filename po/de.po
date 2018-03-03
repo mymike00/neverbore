@@ -1,0 +1,148 @@
+# German translation for neverbore
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the neverbore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: neverbore\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-06-21 14:40+0100\n"
+"PO-Revision-Date: 2016-03-06 18:57+0000\n"
+"Last-Translator: tobson <Unknown>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-03-07 06:04+0000\n"
+"X-Generator: Launchpad (build 17936)\n"
+
+#: ../app/CreditsPage.qml:5 ../app/FrontPage.qml:64
+msgid "Credits"
+msgstr ""
+
+#: ../app/CreditsPage.qml:21
+#, qt-format
+msgid "Programming by %1"
+msgstr "Programmierung durch %1"
+
+#: ../app/CreditsPage.qml:22
+#, qt-format
+msgid "Music by %1"
+msgstr "Musik von %1"
+
+#: ../app/CreditsPage.qml:23
+#, qt-format
+msgid "Art by %1"
+msgstr "Gestaltung durch %1"
+
+#: ../app/CreditsPage.qml:24
+#, qt-format
+msgid "Testing by %1"
+msgstr "Geprüft durch %1"
+
+#: ../app/CreditsPage.qml:25
+#, qt-format
+msgid "Puzzles by %1"
+msgstr "Rätsel von %1"
+
+#: ../app/FrontPage.qml:37
+#, qt-format
+msgid "Continue <i>%1</i>"
+msgstr "Weiter <i>%1</i>"
+
+#: ../app/FrontPage.qml:37
+msgid "Continue current puzzle"
+msgstr "Weiter mit dem aktuellen Rätsel"
+
+#: ../app/FrontPage.qml:52
+msgid "All puzzles"
+msgstr "Alle Rätsel"
+
+#: ../app/FrontPage.qml:58 ../app/HowToPage.qml:5
+msgid "How to Play"
+msgstr ""
+
+#: ../app/GamePage.qml:30
+msgid "Check"
+msgstr ""
+
+#: ../app/GamePage.qml:37
+msgid "Ghost Mode"
+msgstr "Geistermodus"
+
+#: ../app/GamePage.qml:107
+msgid "Next puzzle"
+msgstr "Nächstes Rätsel"
+
+#: ../app/GamePage.qml:119
+msgid "Entering ghost mode"
+msgstr "Starte Geistermodus"
+
+#: ../app/GamePage.qml:120
+msgid ""
+"You are now making temporary guesses that you can choose to either keep or "
+"discard when you are done with ghost mode."
+msgstr ""
+
+#: ../app/GamePage.qml:122
+msgid "Got it"
+msgstr ""
+
+#: ../app/GamePage.qml:132
+msgid "Leaving ghost mode"
+msgstr "Verlasse Geistermodus"
+
+#: ../app/GamePage.qml:133
+msgid "Would you like to keep or discard your temporary guesses?"
+msgstr ""
+
+#: ../app/GamePage.qml:135
+msgid "Keep guesses"
+msgstr ""
+
+#: ../app/GamePage.qml:143
+msgid "Discard guesses"
+msgstr ""
+
+#: ../app/GamePage.qml:151
+msgid "Stay in ghost mode"
+msgstr "Im Geistermodus bleiben"
+
+#: ../app/HowToPage.qml:39
+msgid ""
+"Picross games are grid logic puzzles where you must determine which of the "
+"grid squares are filled in."
+msgstr ""
+
+#: ../app/HowToPage.qml:46
+msgid ""
+"Each row and column have a set of number hints.  Each number indicates a "
+"sequence of filled squares in that row or column.  For example, a row with "
+"\"4 2\" means that row has a run of 4 filled squares and a run of 2 filled "
+"squares to its right, separated by one or more empty squares."
+msgstr ""
+
+#: ../app/HowToPage.qml:53
+msgid ""
+"If you want to experiment with what the board would look like <em>if</em> a "
+"square were filled, try clicking the ghost icon at the top of the screen.  "
+"This enters ghost mode and all changes to the board can be either kept or "
+"discarded when you leave ghost mode."
+msgstr ""
+
+#: ../app/PacksPage.qml:9
+msgid "Puzzles"
+msgstr "Rätsel"
+
+#: ../app/neverbore.qml:29
+msgid "Unmute"
+msgstr ""
+
+#: ../app/neverbore.qml:29
+msgid "Mute"
+msgstr ""
+
+#: /home/mike/Work/code/neverbore/builddir/po/neverbore.desktop.in.h:1
+msgid "Neverbore Picross"
+msgstr ""

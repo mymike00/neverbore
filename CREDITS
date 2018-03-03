@@ -1,0 +1,18 @@
+apps/graphics/paper.png
+- from lp:gallery-app
+- licensed as GPL-3
+
+apps/sound/happy.mp3
+- from http://opengameart.org/content/happy-arcade-tune
+- by rezoner
+- license as CC-BY-3.0
+
+apps/sounds/positive.mp3
+- from http://opengameart.org/content/gui-sound-effects
+- by Lokif
+- license as CC0
+
+apps/sounds/negative.mp3
+- from http://opengameart.org/content/gui-sound-effects
+- by Lokif
+- license as CC0
