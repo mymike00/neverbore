@@ -1,148 +1,157 @@
-# Italian translation for neverbore
-# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
-# This file is distributed under the same license as the neverbore package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: neverbore\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-06-21 14:40+0100\n"
-"PO-Revision-Date: 2016-01-26 18:29+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Italian <it@li.org>\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-03 17:24+0000\n"
+"PO-Revision-Date: 2018-03-03 18:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-01-27 05:36+0000\n"
-"X-Generator: Launchpad (build 17902)\n"
+"X-Generator: Poedit 2.0.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../app/CreditsPage.qml:5 ../app/FrontPage.qml:64
 msgid "Credits"
-msgstr ""
+msgstr "Credits"
 
 #: ../app/CreditsPage.qml:21
 #, qt-format
 msgid "Programming by %1"
-msgstr ""
+msgstr "Programmazione di %1"
 
 #: ../app/CreditsPage.qml:22
 #, qt-format
 msgid "Music by %1"
-msgstr ""
+msgstr "Musica di %1"
 
 #: ../app/CreditsPage.qml:23
 #, qt-format
 msgid "Art by %1"
-msgstr ""
+msgstr "Arte di %1"
 
 #: ../app/CreditsPage.qml:24
 #, qt-format
 msgid "Testing by %1"
-msgstr ""
+msgstr "Collaudo di %1"
 
 #: ../app/CreditsPage.qml:25
 #, qt-format
 msgid "Puzzles by %1"
-msgstr ""
+msgstr "Puzzle di %1"
 
 #: ../app/FrontPage.qml:37
 #, qt-format
 msgid "Continue <i>%1</i>"
-msgstr ""
+msgstr "Continua <i>%1</i>"
 
 #: ../app/FrontPage.qml:37
 msgid "Continue current puzzle"
-msgstr ""
+msgstr "Continua puzzle corrente"
 
 #: ../app/FrontPage.qml:52
 msgid "All puzzles"
-msgstr ""
+msgstr "Tutti i puzzle"
 
 #: ../app/FrontPage.qml:58 ../app/HowToPage.qml:5
 msgid "How to Play"
-msgstr ""
+msgstr "Come si Gioca"
 
 #: ../app/GamePage.qml:30
 msgid "Check"
-msgstr ""
+msgstr "Controlla"
 
 #: ../app/GamePage.qml:37
 msgid "Ghost Mode"
-msgstr ""
+msgstr "Modalità Fantasma"
 
 #: ../app/GamePage.qml:107
 msgid "Next puzzle"
-msgstr ""
+msgstr "Prossimo Puzzle"
 
 #: ../app/GamePage.qml:119
 msgid "Entering ghost mode"
-msgstr ""
+msgstr "Entra della modalità fantasma"
 
 #: ../app/GamePage.qml:120
 msgid ""
 "You are now making temporary guesses that you can choose to either keep or "
 "discard when you are done with ghost mode."
 msgstr ""
+"Ora stai facendo modifiche momentanee che puoi decidere se tenere o scartare "
+"quando hai finito con la modalità fantasma"
 
 #: ../app/GamePage.qml:122
 msgid "Got it"
-msgstr ""
+msgstr "Ho capito"
 
 #: ../app/GamePage.qml:132
 msgid "Leaving ghost mode"
-msgstr ""
+msgstr "Lascia la modalità fantasma"
 
 #: ../app/GamePage.qml:133
 msgid "Would you like to keep or discard your temporary guesses?"
-msgstr ""
+msgstr "Vuoi tenere o scartare le tue ipotesi momentanei?"
 
 #: ../app/GamePage.qml:135
 msgid "Keep guesses"
-msgstr ""
+msgstr "Tieni i tentativi"
 
 #: ../app/GamePage.qml:143
 msgid "Discard guesses"
-msgstr ""
+msgstr "Scarta tentativi"
 
 #: ../app/GamePage.qml:151
 msgid "Stay in ghost mode"
-msgstr ""
+msgstr "Rimani in modalità fantasma"
 
 #: ../app/HowToPage.qml:39
 msgid ""
 "Picross games are grid logic puzzles where you must determine which of the "
 "grid squares are filled in."
 msgstr ""
+"I giochi picross sono giochi logici dove devi decidere quali caselle di una "
+"griglia sono da riempire."
 
 #: ../app/HowToPage.qml:46
 msgid ""
-"Each row and column have a set of number hints.  Each number indicates a "
-"sequence of filled squares in that row or column.  For example, a row with "
+"Each row and column have a set of number hints. Each number indicates a "
+"sequence of filled squares in that row or column. For example, a row with "
 "\"4 2\" means that row has a run of 4 filled squares and a run of 2 filled "
 "squares to its right, separated by one or more empty squares."
 msgstr ""
+"Ogni riga e ogni colonna ha una serie di note numeriche. Ogni numero indica "
+"una sequenza di caselle piene in quella riga o colonna. Per esempio, una "
+"riga con \"4 2\" significa che quella riga ha una fila di 4 caselle piene e "
+"un'altra di 2 caselle alla sua destra, separate da una o più caselle vuote."
 
 #: ../app/HowToPage.qml:53
 msgid ""
 "If you want to experiment with what the board would look like <em>if</em> a "
-"square were filled, try clicking the ghost icon at the top of the screen.  "
+"square were filled, try clicking the ghost icon at the top of the screen. "
 "This enters ghost mode and all changes to the board can be either kept or "
 "discarded when you leave ghost mode."
 msgstr ""
+"Se vuoi vedere come sarebbe il gioco <em>se<em> una casella fosse piena, "
+"prova a cliccare l'icona del fantasma in alto allo schermo. Entra nella "
+"modalità fantasma e tutti i cambiamenti fatti possono essere tenuti o "
+"scartati quando lasci questa modalità."
 
 #: ../app/PacksPage.qml:9
 msgid "Puzzles"
-msgstr ""
+msgstr "Puzzle"
 
 #: ../app/neverbore.qml:29
 msgid "Unmute"
-msgstr ""
+msgstr "Suona"
 
 #: ../app/neverbore.qml:29
 msgid "Mute"
-msgstr ""
-
-#: /home/mike/Work/code/neverbore/builddir/po/neverbore.desktop.in.h:1
-msgid "Neverbore Picross"
-msgstr ""
+msgstr "Silenzia"

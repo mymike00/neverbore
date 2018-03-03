@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-03 16:54+0000\n"
+"POT-Creation-Date: 2018-03-03 17:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,8 +117,8 @@ msgstr ""
 
 #: ../app/HowToPage.qml:46
 msgid ""
-"Each row and column have a set of number hints.  Each number indicates a "
-"sequence of filled squares in that row or column.  For example, a row with "
+"Each row and column have a set of number hints. Each number indicates a "
+"sequence of filled squares in that row or column. For example, a row with "
 "\"4 2\" means that row has a run of 4 filled squares and a run of 2 filled "
 "squares to its right, separated by one or more empty squares."
 msgstr ""
@@ -126,7 +126,7 @@ msgstr ""
 #: ../app/HowToPage.qml:53
 msgid ""
 "If you want to experiment with what the board would look like <em>if</em> a "
-"square were filled, try clicking the ghost icon at the top of the screen.  "
+"square were filled, try clicking the ghost icon at the top of the screen. "
 "This enters ghost mode and all changes to the board can be either kept or "
 "discarded when you leave ghost mode."
 msgstr ""
@@ -141,8 +141,4 @@ msgstr ""
 
 #: ../app/neverbore.qml:29
 msgid "Mute"
-msgstr ""
-
-#: /home/mike/Documenti/UTapps/neverbore/build/po/neverbore.desktop.in.h:1
-msgid "Neverbore Picross"
 msgstr ""

@@ -43,14 +43,14 @@ Page {
                 Label {
                     anchors.left: parent.left
                     anchors.right: parent.right
-                    text: i18n.tr("Each row and column have a set of number hints.  Each number indicates a sequence of filled squares in that row or column.  For example, a row with \"4 2\" means that row has a run of 4 filled squares and a run of 2 filled squares to its right, separated by one or more empty squares.")
+                    text: i18n.tr("Each row and column have a set of number hints. Each number indicates a sequence of filled squares in that row or column. For example, a row with \"4 2\" means that row has a run of 4 filled squares and a run of 2 filled squares to its right, separated by one or more empty squares.")
                     wrapMode: Text.Wrap
                 }
 
                 Label {
                     anchors.left: parent.left
                     anchors.right: parent.right
-                    text: i18n.tr("If you want to experiment with what the board would look like <em>if</em> a square were filled, try clicking the ghost icon at the top of the screen.  This enters ghost mode and all changes to the board can be either kept or discarded when you leave ghost mode.")
+                    text: i18n.tr("If you want to experiment with what the board would look like <em>if</em> a square were filled, try clicking the ghost icon at the top of the screen. This enters ghost mode and all changes to the board can be either kept or discarded when you leave ghost mode.")
                     wrapMode: Text.Wrap
                 }
             }
