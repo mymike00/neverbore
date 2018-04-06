@@ -36,7 +36,8 @@ set(APP_NAME          neverbore)
 set(APP_ID            "neverbore.mterry")
 set(NEVERBORE_DIR "share/qml/neverbore")
 set(MAIN_QML          "neverbore.qml")
-set(ICON              "share/qml/neverbore/graphics/neverbore.png")
+set(ICON              "share/qml/neverbore/graphics/neverbore-app.svg")
+set(SPLASH              "share/qml/neverbore/graphics/neverbore-splash.svg")
 
 # Set install paths
 set(CMAKE_INSTALL_PREFIX /)
@@ -75,7 +76,6 @@ add_custom_target("run" /usr/bin/qmlscene -I ${CMAKE_BINARY_DIR}/backend  ${CMAK
                     DEPENDS neverbore2backend neverbore2backend-qmldir
                     WORKING_DIRECTORY ./app)
 
-# Normally QtCreator would only show files that are part of a target, but we need it to show also files 
-# that are not compiled. Therefore we add a custom target that just does nothing but list the files 
+# Normally QtCreator would only show files that are part of a target, but we need it to show also files
+# that are not compiled. Therefore we add a custom target that just does nothing but list the files
 add_custom_target("neverbore_ClickFiles" ALL SOURCES "neverbore.apparmor" "manifest.json.in")
-

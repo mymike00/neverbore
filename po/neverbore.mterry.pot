@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-03 17:24+0000\n"
+"POT-Creation-Date: 2018-03-07 12:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,20 +28,25 @@ msgstr ""
 
 #: ../app/CreditsPage.qml:22
 #, qt-format
-msgid "Music by %1"
+msgid "Now maintained by %1"
 msgstr ""
 
 #: ../app/CreditsPage.qml:23
 #, qt-format
-msgid "Art by %1"
+msgid "Music by %1"
 msgstr ""
 
 #: ../app/CreditsPage.qml:24
 #, qt-format
-msgid "Testing by %1"
+msgid "Art by %1"
 msgstr ""
 
 #: ../app/CreditsPage.qml:25
+#, qt-format
+msgid "Testing by %1"
+msgstr ""
+
+#: ../app/CreditsPage.qml:26
 #, qt-format
 msgid "Puzzles by %1"
 msgstr ""
@@ -63,49 +68,49 @@ msgstr ""
 msgid "How to Play"
 msgstr ""
 
-#: ../app/GamePage.qml:30
+#: ../app/GamePage.qml:31
 msgid "Check"
 msgstr ""
 
-#: ../app/GamePage.qml:37
+#: ../app/GamePage.qml:38
 msgid "Ghost Mode"
 msgstr ""
 
-#: ../app/GamePage.qml:107
+#: ../app/GamePage.qml:113
 msgid "Next puzzle"
 msgstr ""
 
-#: ../app/GamePage.qml:119
+#: ../app/GamePage.qml:128
 msgid "Entering ghost mode"
 msgstr ""
 
-#: ../app/GamePage.qml:120
+#: ../app/GamePage.qml:129
 msgid ""
 "You are now making temporary guesses that you can choose to either keep or "
 "discard when you are done with ghost mode."
 msgstr ""
 
-#: ../app/GamePage.qml:122
+#: ../app/GamePage.qml:131
 msgid "Got it"
 msgstr ""
 
-#: ../app/GamePage.qml:132
+#: ../app/GamePage.qml:141
 msgid "Leaving ghost mode"
 msgstr ""
 
-#: ../app/GamePage.qml:133
+#: ../app/GamePage.qml:142
 msgid "Would you like to keep or discard your temporary guesses?"
 msgstr ""
 
-#: ../app/GamePage.qml:135
+#: ../app/GamePage.qml:144
 msgid "Keep guesses"
 msgstr ""
 
-#: ../app/GamePage.qml:143
+#: ../app/GamePage.qml:152
 msgid "Discard guesses"
 msgstr ""
 
-#: ../app/GamePage.qml:151
+#: ../app/GamePage.qml:160
 msgid "Stay in ghost mode"
 msgstr ""
 

@@ -3,7 +3,8 @@
 # rerun cmake to make sure they show up in the project tree
 file(GLOB QML_JS_FILES *.qml *.js)
 
-file(GLOB GRAPHICS_FILES graphics/*)
+file(GLOB GRAPHICS_FILES graphics/*.svg)
+file(GLOB GRAPHICS_FILES graphics/*.png)
 file(GLOB SOUND_FILES sound/*)
 
 # Make the files visible in qtcreator
@@ -20,4 +21,3 @@ install(FILES ${SOUND_FILES} DESTINATION ${NEVERBORE_DIR}/sound)
 # Make the autpilot files visible in qtcreator
 file(GLOB_RECURSE AUTOPILOT_TEST_FILES *.py)
 add_custom_target(neverbore_AutopilotFiles ALL SOURCES ${AUTOPILOT_TEST_FILES})
-

@@ -19,6 +19,7 @@ Page {
 
         model: [
             i18n.tr("Programming by %1").arg("<b>Michael Terry</b>"),
+            i18n.tr("Now maintained by %1").arg("<b>Michele Castellazzi</b>"),
             i18n.tr("Music by %1").arg('<b>Przemysław "Rezoner" Sikorski</b>'),
             i18n.tr("Art by %1").arg('<b>Sasha Goldberg</b>'),
             i18n.tr("Testing by %1").arg('<b>Sasha Goldberg</b>'),
@@ -27,7 +28,7 @@ Page {
 
         delegate: MenuListItem {
             enabled: false
-            text: modelData
+            title.text: modelData
         }
     }
 }

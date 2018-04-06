@@ -3,6 +3,7 @@ import QtMultimedia 5.0
 import Qt.labs.settings 1.0
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.0
+import QtQuick.Layouts 1.1
 import Neverbore 1.0 as NB
 
 Page {
@@ -96,21 +97,29 @@ Page {
         }
     }
 
-    Button {
-        id: nextButton
-        property int nextLevel
-        visible: false
-        enabled: visible
-        anchors.right: parent.right
-        anchors.bottom: parent.bottom
-        anchors.margins: units.gu(1)
-        text: i18n.tr("Next puzzle")
-        onTriggered: {
+    RowLayout {
+      anchors {
+         right: parent.right
+         left: parent.left
+         bottom: parent.bottom
+         margins: units.gu(1)
+      }
+      Item { Layout.fillWidth: true }
+      Button {
+         id: nextButton
+         property int nextLevel
+         visible: false
+         enabled: visible
+         text: i18n.tr("Next puzzle")
+         onTriggered: {
             visible = false;
             mainView.currentLevelIndex = nextLevel;
             pageStack.replace(Qt.resolvedUrl("GamePage.qml"));
-        }
-    }
+         }
+         // iconName: "next"
+         // iconPosition: "right"
+      }
+   }
 
     Component {
          id: ghostInfoDialog

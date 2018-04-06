@@ -9,7 +9,7 @@
             "desktop": "neverbore.desktop"
         }
     },
-    "version": "3",
-    "maintainer": "Michael Terry <mterry@ubuntu.com>",
+    "version": "4",
+    "maintainer": "Michele Castellazzi <miguel2000@livecom.it>",
     "framework": "ubuntu-sdk-15.04"
 }

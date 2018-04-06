@@ -2,33 +2,29 @@ import QtQuick 2.4
 import Ubuntu.Components 1.3
 
 ListItem {
-    property alias text: label.text
-    property bool progression
-    property bool active: true
+  default property alias content: layout.data
+  property alias title: layout.title
+  property bool progression
+  property bool active: true
+  property alias iconName: lastIcon.name
 
-    onClicked: Haptics.play()
+  onClicked: Haptics.play()
 
-    color: "#fff"
-    highlightColor: "#ddd"
+  color: "#fff"
+  highlightColor: "#ddd"
 
-    Label {
-        id: label
-        anchors.fill: parent
-        anchors.margins: units.gu(2)
-        horizontalAlignment: Text.AlignLeft
-        verticalAlignment: Text.AlignVCenter
-        wrapMode: Text.Wrap
-        opacity: active ? 1 : 0.5
-    }
+  ListItemLayout {
+    id: layout
+    title.opacity: active ? 1 : 0.5
 
     Icon {
-        visible: progression
-        name: "next"
-        anchors.right: parent.right
-        anchors.rightMargin: units.gu(1.5)
-        anchors.verticalCenter: parent.verticalCenter
-        width: units.gu(2)
-        height: width
-        opacity: active ? 1 : 0.5
+      id: lastIcon
+      name: "next"
+      visible: progression
+      opacity: active ? 1 : 0.5
+      height: units.gu(2)
+      width: height
+      SlotsLayout.position: SlotsLayout.Last
     }
+  }
 }

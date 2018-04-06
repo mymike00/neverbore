@@ -6,4 +6,6 @@ Icon=@ICON@
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
-X-Ubuntu-Splash-Show-Header=true
+X-Ubuntu-Splash-Image=@SPLASH@
+X-Ubuntu-Splash-Color-Header=#dbdbdb
+X-Ubuntu-Splash-Color=#f2f2f2
