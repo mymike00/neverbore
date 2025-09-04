@@ -11,5 +11,5 @@
     },
     "version": "4",
     "maintainer": "Michele Castellazzi <miguel2000@livecom.it>",
-    "framework": "ubuntu-sdk-15.04"
+    "framework": "@CLICK_FRAMEWORK@"
 }
