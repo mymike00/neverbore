@@ -1,7 +1,7 @@
 import QtMultimedia 5.0
 import QtQuick 2.4
 import Qt.labs.settings 1.0
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Neverbore 1.0 as NB
 
 MainView {
