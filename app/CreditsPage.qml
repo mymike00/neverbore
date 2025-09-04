@@ -10,7 +10,7 @@ Page {
 
     Image {
         anchors.fill: parent
-        source: Qt.resolvedUrl("graphics/paper.png")
+        source: mainView.dark ? Qt.resolvedUrl("graphics/paperDark.png") : Qt.resolvedUrl("graphics/paper.png")
         fillMode: Image.Tile
     }
 
@@ -29,6 +29,7 @@ Page {
         delegate: MenuListItem {
             enabled: false
             title.text: modelData
+            title.color: theme.palette.normal.backgroundText
         }
     }
 }

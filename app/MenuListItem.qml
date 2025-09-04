@@ -10,8 +10,8 @@ ListItem {
 
   onClicked: Haptics.play()
 
-  color: "#fff"
-  highlightColor: "#ddd"
+  color: theme.palette.normal.background
+  // highlightColor: "#ddd" //theme.palette.normal.overlaySecondaryText
 
   ListItemLayout {
     id: layout

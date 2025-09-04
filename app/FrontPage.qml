@@ -26,7 +26,7 @@ Page {
 
    Image {
       anchors.fill: parent
-      source: Qt.resolvedUrl("graphics/paper.png")
+      source: mainView.dark ? Qt.resolvedUrl("graphics/paperDark.png") : Qt.resolvedUrl("graphics/paper.png")
       fillMode: Image.Tile
    }
 
@@ -64,6 +64,19 @@ Page {
          title.text: i18n.tr("Credits")
          progression: true
          onClicked: nextPage = Qt.resolvedUrl("CreditsPage.qml")
+      }
+
+      MenuListItem {
+         title.text: i18n.tr("Dark theme")
+         onClicked: themeSwitch.checked = !themeSwitch.checked
+         Switch {
+            id: themeSwitch
+            checked: mainView.dark
+            onCheckedChanged: {
+               mainView.dark = checked // !mainView.dark
+               theme.name = mainView.dark ? "Ubuntu.Components.Themes.SuruDark" : "Ubuntu.Components.Themes.Ambiance"
+            }
+         }
       }
    }
 }

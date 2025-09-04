@@ -14,6 +14,9 @@ MainView {
     width: units.gu(50)
     height: units.gu(75)
 
+    theme.name: mainView.dark ? "Ubuntu.Components.Themes.SuruDark" : "Ubuntu.Components.Themes.Ambiance"
+    property bool dark: true
+
     Keys.onPressed: {
         if (event.matches(StandardKey.Quit)) {
             actionManager.quit();
@@ -23,6 +26,7 @@ MainView {
     property bool muted
     Settings {
         property alias muted: mainView.muted
+        property alias dark: mainView.dark
     }
     Action {
         id: muteAction

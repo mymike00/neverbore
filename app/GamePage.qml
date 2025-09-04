@@ -57,7 +57,7 @@ Page {
 
     Image {
         anchors.fill: parent
-        source: Qt.resolvedUrl("graphics/paper.png")
+        source: mainView.dark ? Qt.resolvedUrl("graphics/paperDark.png") : Qt.resolvedUrl("graphics/paper.png")
         fillMode: Image.Tile
     }
 
@@ -129,6 +129,7 @@ Page {
              text: i18n.tr("You are now making temporary guesses that you can choose to either keep or discard when you are done with ghost mode.")
              Button {
                  text: i18n.tr("Got it")
+                 color: UbuntuColors.orange
                  onClicked: PopupUtils.close(dialog)
              }
          }
@@ -158,6 +159,7 @@ Page {
              }
              Button {
                  text: i18n.tr("Stay in ghost mode")
+                 color: theme.palette.normal.overlaySecondaryText
                  onClicked: PopupUtils.close(dialog)
              }
          }

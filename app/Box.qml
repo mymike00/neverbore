@@ -30,15 +30,16 @@ Rectangle {
     Rectangle {
         anchors.fill: parent
         visible: guess != "blank" && guess != ""
-        color: guess
+        color: guess == "#444" ? theme.palette.normal.backgroundSecondaryText : ""
         opacity: isRealGuess ? 1 : 0.5
     }
-    Image {
+    Icon {
         anchors.fill: parent
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
         visible: guess == "blank" && !level.finished
         source: Qt.resolvedUrl("graphics/cross.svg")
         opacity: isRealGuess ? 1 : 0.5
+        color: theme.palette.normal.backgroundSecondaryText
     }
 }

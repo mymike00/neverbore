@@ -10,7 +10,7 @@ Page {
 
     Image {
         anchors.fill: parent
-        source: Qt.resolvedUrl("graphics/paper.png")
+        source: mainView.dark ? Qt.resolvedUrl("graphics/paperDark.png") : Qt.resolvedUrl("graphics/paper.png")
         fillMode: Image.Tile
     }
 
@@ -21,7 +21,7 @@ Page {
 
         Rectangle {
             id: border
-            color: "white"
+            color: theme.palette.normal.background
             width: parent.width
             height: childrenRect.height
 

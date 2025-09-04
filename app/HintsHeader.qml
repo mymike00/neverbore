@@ -37,13 +37,13 @@ Rectangle {
                         Rectangle {
                             height: blockSize
                             width: blockSize
-                            color: hintBox.hintColors[index]
+                            color: theme.palette.normal.backgroundSecondaryText //hintBox.hintColors[index]
                             Label {
                                 anchors.fill: parent
                                 text: hintBox.hints[index]
                                 fontSizeMode: Text.Fit
                                 font.pixelSize: 100
-                                color: hintBox.isWrong ? "red" : "white"
+                                color: hintBox.isWrong ? UbuntuColors.red : theme.palette.normal.background
                                 horizontalAlignment: Text.AlignHCenter
                                 verticalAlignment: Text.AlignVCenter
                             }

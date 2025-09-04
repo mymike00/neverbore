@@ -42,7 +42,7 @@ Rectangle {
                     anchors.leftMargin: isThick ? -units.dp(1) : 0
                     anchors.top: parent.top
                     anchors.bottom: parent.bottom
-                    color: "black"
+                    color: theme.palette.normal.backgroundSecondaryText
                     visible: !root.gameData.finished
                 }
                 Rectangle {
@@ -52,7 +52,7 @@ Rectangle {
                     anchors.topMargin: isThick ? -units.dp(1) : 0
                     anchors.left: parent.left
                     anchors.right: parent.right
-                    color: "black"
+                    color: theme.palette.normal.backgroundSecondaryText
                     visible: !root.gameData.finished
                 }
 
@@ -103,7 +103,7 @@ Rectangle {
         anchors.right: grid.right
         anchors.top: grid.top
         anchors.bottom: grid.bottom
-        color: "black"
+        color: theme.palette.normal.backgroundSecondaryText
         visible: !root.gameData.finished
     }
     Rectangle {
@@ -111,7 +111,7 @@ Rectangle {
         anchors.bottom: grid.bottom
         anchors.left: grid.left
         anchors.right: grid.right
-        color: "black"
+        color: theme.palette.normal.backgroundSecondaryText
         visible: !root.gameData.finished
     }
 }
