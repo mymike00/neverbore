@@ -15,7 +15,7 @@
    viewBox="0 0 354.33071 354.33071"
    id="svg4136"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="cross.svg">
   <defs
      id="defs4138" />
@@ -27,15 +27,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="239.21159"
-     inkscape:cy="230.11767"
+     inkscape:cx="143.17307"
+     inkscape:cy="230.14983"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1297"
+     inkscape:window-height="703"
+     inkscape:window-x="69"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata4141">
@@ -55,7 +55,7 @@
      id="layer1"
      transform="translate(0,-698.0315)">
     <rect
-       style="opacity:1;fill:#444444;fill-opacity:1;stroke:none;stroke-opacity:1"
+       style="opacity:1;fill:#808080;fill-opacity:1;stroke:none;stroke-opacity:1"
        id="rect4144"
        width="185.98454"
        height="22.213121"
