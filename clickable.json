@@ -1,4 +1,3 @@
 {
-  "template": "cmake",
-  "default": "kill clean build click_build install launch logs"
+  "builder": "cmake"
 }
